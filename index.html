@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Urooj Humza | Online Quran & Islamic Studies Academy</title>
+    <meta name="description" content="Official portfolio and Online Quran Academy of Ustazah Malik Urooj Humza (B.Sc., M.A. Islamic Studies Scholar). 1-on-1 Tajweed, Nazra, Hifz, and Islamic Studies for children and sisters worldwide.">
+    
+    <!-- Google Fonts: Cormorant Garamond (Editorial Headings), Amiri (Arabic Calligraphy), Plus Jakarta Sans (Clean Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Custom Configuration for Classical Manuscript Palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        parchment: {
+                            light: '#FAF7F2',
+                            DEFAULT: '#F3EDE2',
+                            dark: '#E6DEC8'
+                        },
+                        cypress: {
+                            light: '#1E4335',
+                            DEFAULT: '#143025',
+                            dark: '#0E231B'
+                        },
+                        brass: {
+                            light: '#D4B475',
+                            DEFAULT: '#B89146',
+                            dark: '#9A7632'
+                        },
+                        ink: {
+                            DEFAULT: '#1F2421',
+                            muted: '#5A625E'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+                        arabic: ['"Amiri"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+                    },
+                    boxShadow: {
+                        'manuscript': '0 12px 32px -8px rgba(20, 48, 37, 0.08), 0 4px 12px -2px rgba(184, 145, 70, 0.08)',
+                        'arch': '0 20px 45px -15px rgba(14, 35, 27, 0.25)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Subtle Custom Islamic Geometric SVG Pattern Overlay */
+        .bg-islamic-pattern {
+            background-color: #FAF7F2;
+            background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23B89146' stroke-width='0.6' stroke-opacity='0.16'%3E%3Cpath d='M40 0L48.5 14.5L65 15L55.5 29L65 40L55.5 51L65 65L48.5 65.5L40 80L31.5 65.5L15 65L24.5 51L15 40L24.5 29L15 15L31.5 14.5Z'/%3E%3Ccircle cx='40' cy='40' r='12'/%3E%3Cpath d='M0 40H15M65 40H80M40 0V15M40 65V80'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .bg-cypress-pattern {
+            background-color: #143025;
+            background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23B89146' stroke-width='0.65' stroke-opacity='0.14'%3E%3Cpath d='M40 0L48.5 14.5L65 15L55.5 29L65 40L55.5 51L65 65L48.5 65.5L40 80L31.5 65.5L15 65L24.5 51L15 40L24.5 29L15 15L31.5 14.5Z'/%3E%3Ccircle cx='40' cy='40' r='12'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* Mihrab-inspired Arch Styling */
+        .mihrab-arch {
+            border-top-left-radius: 9999px;
+            border-top-right-radius: 9999px;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+
+        .mihrab-card-top {
+            border-top-left-radius: 140px;
+            border-top-right-radius: 140px;
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
+        }
+
+        /* Brass Double Border Ornamental Frame */
+        .manuscript-border {
+            border: 1px solid rgba(184, 145, 70, 0.35);
+            position: relative;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F3EDE2;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #B89146;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9A7632;
+        }
+    </style>
+</head>
+<body class="bg-parchment-light text-ink font-sans antialiased selection:bg-brass selection:text-white">
+
+    <!-- 1. Top Announcement / Bismillah Bar -->
+    <div class="bg-cypress-dark text-parchment-light border-b border-brass/30 py-2.5 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs sm:text-sm">
+            <div class="flex items-center gap-3">
+                <span class="font-arabic text-lg sm:text-xl text-brass-light tracking-wide" dir="rtl" lang="ar">
+                    بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                </span>
+                <span class="hidden md:inline-block text-parchment-dark/80 border-l border-brass/30 pl-3 italic font-serif text-base">
+                    In the Name of Allah, the Most Compassionate, the Most Merciful
+                </span>
+            </div>
+            <div class="flex items-center gap-4 text-parchment-dark/90 text-xs">
+                <span class="inline-flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-brass animate-pulse"></span>
+                    1-on-1 Live Classes for Sisters &amp; Children
+                </span>
+                <span class="hidden sm:inline text-brass">|</span>
+                <span class="hidden sm:inline">UK, USA, Canada, Europe, Middle East &amp; Pakistan Timings</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Sticky Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-parchment-light/95 backdrop-blur-md border-b border-brass/25 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Identity -->
+                <a href="#" class="flex items-center gap-3.5 group">
+                    <div class="w-11 h-11 rounded-full bg-cypress flex items-center justify-center border border-brass shadow-sm group-hover:bg-cypress-light transition-colors">
+                        <!-- Eight-Pointed Islamic Star Rub el Hizb Icon -->
+                        <svg class="w-6 h-6 text-brass-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="5" y="5" width="14" height="14" rx="1" />
+                            <rect x="5" y="5" width="14" height="14" rx="1" transform="rotate(45 12 12)" />
+                            <circle cx="12" cy="12" r="2.2" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif text-xl sm:text-2xl font-bold text-cypress tracking-tight leading-none">
+                            Malik Urooj Humza
+                        </span>
+                        <span class="block text-[11px] uppercase tracking-widest text-brass-dark font-semibold mt-1">
+                            Online Quran &amp; Islamic Academy
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-ink">
+                    <a href="#about" class="hover:text-brass-dark transition-colors">About Ustazah</a>
+                    <a href="#credentials" class="hover:text-brass-dark transition-colors">Academic Background</a>
+                    <a href="#courses" class="hover:text-brass-dark transition-colors">Curriculum</a>
+                    <a href="#methodology" class="hover:text-brass-dark transition-colors">Methodology</a>
+                    <a href="#tuition" class="hover:text-brass-dark transition-colors">Fee Plans</a>
+                </nav>
+
+                <!-- Desktop CTA Button -->
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="#trial" class="inline-flex items-center gap-2 bg-cypress hover:bg-cypress-light text-parchment-light text-sm font-semibold px-5 py-2.5 rounded-lg border border-brass/50 shadow-sm transition-all">
+                        <span>Book 3-Day Free Trial</span>
+                        <svg class="w-4 h-4 text-brass-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobileMenuBtn" aria-label="Toggle Menu" class="lg:hidden p-2.5 rounded-lg text-cypress hover:bg-parchment border border-brass/30 focus:outline-none">
+                    <svg id="menuOpenIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg id="menuCloseIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-parchment border-b border-brass/30 px-4 pt-3 pb-6 space-y-3">
+            <a href="#about" class="mobile-nav-link block py-2 px-3 rounded-lg text-ink font-medium hover:bg-parchment-dark/60">About Ustazah Malik Urooj Humza</a>
+            <a href="#credentials" class="mobile-nav-link block py-2 px-3 rounded-lg text-ink font-medium hover:bg-parchment-dark/60">Academic Credentials (B.Sc. &amp; M.A.)</a>
+            <a href="#courses" class="mobile-nav-link block py-2 px-3 rounded-lg text-ink font-medium hover:bg-parchment-dark/60">Quran &amp; Islamic Courses</a>
+            <a href="#methodology" class="mobile-nav-link block py-2 px-3 rounded-lg text-ink font-medium hover:bg-parchment-dark/60">Teaching Methodology</a>
+            <a href="#tuition" class="mobile-nav-link block py-2 px-3 rounded-lg text-ink font-medium hover:bg-parchment-dark/60">Monthly Tuition Plans</a>
+            <div class="pt-2">
+                <a href="#trial" class="mobile-nav-link block w-full text-center bg-cypress text-parchment-light font-semibold py-3 rounded-lg border border-brass">
+                    Book Free 3-Day Trial Class
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Hero Section -->
+    <section class="relative bg-islamic-pattern pt-10 pb-20 lg:py-24 border-b border-brass/25 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+                
+                <!-- Left Editorial Column (7 cols) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-parchment border border-brass/40 text-cypress text-xs font-semibold tracking-wide uppercase">
+                        <span class="w-2 h-2 rounded-full bg-brass-dark"></span>
+                        <span>B.Sc. Graduate &bull; M.A. Islamic Studies Scholar</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-cypress leading-[1.12] tracking-tight">
+                        Nurturing Hearts with Authentic <span class="text-brass-dark italic font-semibold">Tajweed</span> &amp; Sacred Islamic Knowledge.
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-ink-muted leading-relaxed max-w-2xl">
+                        Welcome to the official academic portfolio and Online Quran Academy of <strong class="text-ink font-semibold">Ustazah Malik Urooj Humza</strong>. Providing patient, structured, and one-on-one Quranic instruction designed specifically for children, young learners, and sisters seeking a modest, encouraging educational environment.
+                    </p>
+
+                    <!-- Key Value Badges -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-2">
+                        <div class="bg-parchment/90 border border-brass/30 rounded-xl p-3.5 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-cypress text-brass-light flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-cypress uppercase tracking-wider">Dedicated Female Tutor</p>
+                                <p class="text-xs text-ink-muted mt-0.5">For sisters, mothers &amp; kids</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-parchment/90 border border-brass/30 rounded-xl p-3.5 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-cypress text-brass-light flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-cypress uppercase tracking-wider">1-on-1 Live Sessions</p>
+                                <p class="text-xs text-ink-muted mt-0.5">Undivided personal focus</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-parchment/90 border border-brass/30 rounded-xl p-3.5 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-cypress text-brass-light flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-cypress uppercase tracking-wider">Academic Rigor</p>
+                                <p class="text-xs text-ink-muted mt-0.5">Tajweed, Tafseer &amp; Tarbiyah</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+                        <a href="#trial" class="inline-flex items-center justify-center gap-3 bg-cypress hover:bg-cypress-light text-parchment-light font-semibold px-7 py-4 rounded-xl border border-brass shadow-md transition-all text-base">
+                            <span>Schedule Your Free 3-Day Trial</span>
+                            <svg class="w-5 h-5 text-brass-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </a>
+                        <a href="#courses" class="inline-flex items-center justify-center gap-2 bg-parchment hover:bg-parchment-dark text-cypress font-semibold px-6 py-4 rounded-xl border border-brass/40 transition-all text-base">
+                            <span>Explore Curriculum</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Mihrab Arch Manuscript Card (5 cols) -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="w-full max-w-md bg-cypress-pattern text-parchment-light p-3 rounded-b-2xl mihrab-arch border-2 border-brass shadow-arch">
+                        <div class="border border-brass/40 mihrab-arch pt-12 pb-8 px-6 sm:px-8 text-center space-y-6 bg-cypress-dark/60 backdrop-blur-xs">
+                            
+                            <!-- Ornamental Top Medallion -->
+                            <div class="mx-auto w-12 h-12 rounded-full bg-brass/15 border border-brass/50 flex items-center justify-center">
+                                <svg class="w-6 h-6 text-brass-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2L14.8 8.5L22 9.3L16.5 14L18.2 21L12 17.3L5.8 21L7.5 14L2 9.3L9.2 8.5L12 2Z" />
+                                </svg>
+                            </div>
+
+                            <!-- Arabic Verse -->
+                            <div class="space-y-3">
+                                <p class="font-arabic text-2xl sm:text-3xl text-brass-light leading-loose" dir="rtl" lang="ar">
+                                    وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا
+                                </p>
+                                <p class="font-serif italic text-lg sm:text-xl text-parchment-light/95">
+                                    "And recite the Qur'an with measured, distinct recitation."
+                                </p>
+                                <p class="text-xs uppercase tracking-widest text-brass font-semibold">
+                                    Surah Al-Muzzammil &bull; Verse 4
+                                </p>
+                            </div>
+
+                            <div class="border-t border-brass/25 pt-5 text-left space-y-3">
+                                <div class="flex items-center justify-between text-xs border-b border-brass/15 pb-2.5">
+                                    <span class="text-parchment-dark/75">Lead Instructor</span>
+                                    <span class="font-semibold text-parchment-light">Ustazah Malik Urooj Humza</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs border-b border-brass/15 pb-2.5">
+                                    <span class="text-parchment-dark/75">Qualifications</span>
+                                    <span class="font-semibold text-brass-light">B.Sc. | M.A. Islamic Studies</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs border-b border-brass/15 pb-2.5">
+                                    <span class="text-parchment-dark/75">Class Platforms</span>
+                                    <span class="font-semibold text-parchment-light">Zoom, Google Meet &amp; WhatsApp</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs">
+                                    <span class="text-parchment-dark/75">Instruction Languages</span>
+                                    <span class="font-semibold text-parchment-light">English, Urdu &amp; Arabic</span>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <a href="#about" class="inline-block w-full py-2.5 px-4 rounded-lg bg-brass hover:bg-brass-dark text-cypress-dark font-bold text-xs uppercase tracking-wider transition-colors">
+                                    View Scholar Profile &amp; Credentials
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. About the Instructor & Academic Credentials Section -->
+    <section id="about" class="py-20 bg-parchment border-b border-brass/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <!-- Left Column: Scholar Portfolio Bio (5 cols) -->
+                <div class="lg:col-span-5 bg-parchment-light p-8 sm:p-10 rounded-2xl manuscript-border shadow-manuscript space-y-6">
+                    <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-brass-dark">
+                        <span>Instructor Portfolio</span>
+                    </div>
+                    
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-cypress leading-tight">
+                        Meet Ustazah Malik Urooj Humza
+                    </h2>
+
+                    <p class="text-ink-muted text-sm sm:text-base leading-relaxed">
+                        Assalamu Alaikum Wa Rahmatullahi Wa Barakatuh. I am <strong class="text-ink">Malik Urooj Humza</strong>, an educator dedicated to bridging structured analytical teaching methods with the timeless beauty of classical Islamic scholarship.
+                    </p>
+
+                    <p class="text-ink-muted text-sm sm:text-base leading-relaxed">
+                        Having completed my <strong class="text-ink">Bachelor of Science (B.Sc.)</strong> and currently advancing through my <strong class="text-ink">Master of Arts (M.A.) in Islamic Studies</strong>, I bring both modern pedagogical organization and authentic scriptural depth to every lesson.
+                    </p>
+
+                    <p class="text-ink-muted text-sm sm:text-base leading-relaxed">
+                        Many parents and sisters struggle to find a reliable female teacher who explains Tajweed rules clearly in English and Urdu while nurturing a genuine love for Deen. My online academy was founded to offer a dignified, calm, and structured learning space where every student progresses at their own pace.
+                    </p>
+
+                    <div class="pt-4 border-t border-brass/25 grid grid-cols-2 gap-4">
+                        <div class="bg-parchment p-3.5 rounded-xl border border-brass/20">
+                            <span class="block font-serif text-2xl font-bold text-cypress">100%</span>
+                            <span class="text-xs text-ink-muted">1-on-1 Individual Attention</span>
+                        </div>
+                        <div class="bg-parchment p-3.5 rounded-xl border border-brass/20">
+                            <span class="block font-serif text-2xl font-bold text-cypress">3 Days</span>
+                            <span class="text-xs text-ink-muted">Complimentary Trial Classes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Academic Timeline & Credentials (7 cols) -->
+                <div id="credentials" class="lg:col-span-7 space-y-6">
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold uppercase tracking-widest text-brass-dark">Academic Foundation</span>
+                        <h3 class="font-serif text-3xl sm:text-4xl font-bold text-cypress">
+                            Qualifications &amp; Scholarly Training
+                        </h3>
+                        <p class="text-ink-muted text-sm sm:text-base">
+                            A dual background combining scientific clarity with classical Islamic sciences ensures lessons are well-planned, engaging, and deeply rooted in authentic tradition.
+                        </p>
+                    </div>
+
+                    <!-- Credential Cards -->
+                    <div class="space-y-5 pt-2">
+                        
+                        <!-- Card 1: M.A. Islamic Studies -->
+                        <div class="bg-parchment-light rounded-2xl p-6 sm:p-7 border border-brass/35 shadow-manuscript hover:border-brass transition-all">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-brass/20">
+                                <div class="flex items-center gap-3">
+                                    <span class="w-10 h-10 rounded-xl bg-cypress text-brass-light flex items-center justify-center font-serif font-bold text-lg">01</span>
+                                    <div>
+                                        <h4 class="font-serif text-xl sm:text-2xl font-bold text-cypress">Master of Arts (M.A.) in Islamic Studies</h4>
+                                        <p class="text-xs text-brass-dark font-semibold uppercase tracking-wider">Postgraduate Scholar &bull; In Progress</p>
+                                    </div>
+                                </div>
+                                <span class="self-start sm:self-center px-3 py-1 rounded-full bg-cypress/10 text-cypress text-xs font-semibold">
+                                    Advanced Specialization
+                                </span>
+                            </div>
+                            <p class="text-sm text-ink-muted mt-4 leading-relaxed">
+                                Focused postgraduate research and coursework covering <strong class="text-ink">Uloom al-Quran (Sciences of the Quran)</strong>, classical and contemporary <strong class="text-ink">Tafseer</strong>, <strong class="text-ink">Uloom al-Hadith</strong>, <strong class="text-ink">Islamic Jurisprudence (Fiqh)</strong>, and <strong class="text-ink">Seerah an-Nabawiyyah</strong>. Enables students to understand not just how to recite, but the wisdom behind the verses.
+                            </p>
+                        </div>
+
+                        <!-- Card 2: Bachelor of Science (B.Sc.) -->
+                        <div class="bg-parchment-light rounded-2xl p-6 sm:p-7 border border-brass/35 shadow-manuscript hover:border-brass transition-all">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-brass/20">
+                                <div class="flex items-center gap-3">
+                                    <span class="w-10 h-10 rounded-xl bg-cypress text-brass-light flex items-center justify-center font-serif font-bold text-lg">02</span>
+                                    <div>
+                                        <h4 class="font-serif text-xl sm:text-2xl font-bold text-cypress">Bachelor of Science (B.Sc.)</h4>
+                                        <p class="text-xs text-brass-dark font-semibold uppercase tracking-wider">Undergraduate Degree &bull; Completed</p>
+                                    </div>
+                                </div>
+                                <span class="self-start sm:self-center px-3 py-1 rounded-full bg-brass/20 text-cypress text-xs font-semibold">
+                                    Analytical Pedagogy
+                                </span>
+                            </div>
+                            <p class="text-sm text-ink-muted mt-4 leading-relaxed">
+                                Completing a Bachelor of Science instilled a disciplined, methodical approach to curriculum planning, milestone tracking, and child psychology. Young students born and raised in the West relate effortlessly to clear visual explanations and structured lesson plans.
+                            </p>
+                        </div>
+
+                        <!-- Card 3: Tajweed & Qira'at Mastery -->
+                        <div class="bg-parchment-light rounded-2xl p-6 sm:p-7 border border-brass/35 shadow-manuscript hover:border-brass transition-all">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-brass/20">
+                                <div class="flex items-center gap-3">
+                                    <span class="w-10 h-10 rounded-xl bg-cypress text-brass-light flex items-center justify-center font-serif font-bold text-lg">03</span>
+                                    <div>
+                                        <h4 class="font-serif text-xl sm:text-2xl font-bold text-cypress">Tajweed al-Quran &amp; Tarbiyah Instruction</h4>
+                                        <p class="text-xs text-brass-dark font-semibold uppercase tracking-wider">Phonetics, Makharij &amp; Sifaat al-Huroof</p>
+                                    </div>
+                                </div>
+                                <span class="self-start sm:self-center px-3 py-1 rounded-full bg-cypress/10 text-cypress text-xs font-semibold">
+                                    Practical Recitation
+                                </span>
+                            </div>
+                            <p class="text-sm text-ink-muted mt-4 leading-relaxed">
+                                Specialized training in step-by-step articulation points (<strong class="text-ink">Makharij al-Huroof</strong>), rules of Noon Sakinah, Meem Sakinah, Madd, and Waqf. Particularly experienced in guiding non-Arabic speaking children and adult female beginners from basic alphabet recognition to fluent recitation.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. Comprehensive Curriculum / Courses Section (Interactive Filterable Cards) -->
+    <section id="courses" class="py-20 bg-islamic-pattern border-b border-brass/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="text-xs font-bold uppercase tracking-widest text-brass-dark">Structured Learning Pathways</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-cypress">
+                    Sacred Curriculum &amp; Courses
+                </h2>
+                <p class="text-ink-muted text-sm sm:text-base">
+                    Every course is tailored to the student's age, current proficiency, and learning goals, taught live in one-on-one sessions by Ustazah Malik Urooj Humza.
+                </p>
+            </div>
+
+            <!-- Interactive Filter Tabs -->
+            <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mt-8 mb-12" role="tablist">
+                <button onclick="filterCourses('all')" data-filter="all" class="course-tab active-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-cypress text-parchment-light border border-brass">
+                    All Courses (5)
+                </button>
+                <button onclick="filterCourses('foundation')" data-filter="foundation" class="course-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-parchment text-cypress hover:bg-parchment-dark border border-brass/35">
+                    Foundation &amp; Kids
+                </button>
+                <button onclick="filterCourses('recitation')" data-filter="recitation" class="course-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-parchment text-cypress hover:bg-parchment-dark border border-brass/35">
+                    Recitation &amp; Hifz
+                </button>
+                <button onclick="filterCourses('islamic')" data-filter="islamic" class="course-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-parchment text-cypress hover:bg-parchment-dark border border-brass/35">
+                    Tafseer &amp; Sisters' Track
+                </button>
+            </div>
+
+            <!-- Courses Grid -->
+            <div id="coursesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                
+                <!-- Course 1 -->
+                <article data-category="foundation" class="course-card bg-parchment-light rounded-2xl border border-brass/40 shadow-manuscript flex flex-col justify-between overflow-hidden transition-all hover:-translate-y-1">
+                    <div>
+                        <div class="bg-cypress text-parchment-light px-6 py-4 flex items-center justify-between border-b border-brass/40">
+                            <span class="text-xs uppercase tracking-widest text-brass-light font-semibold">Level 01 &bull; Foundation</span>
+                            <span class="font-arabic text-lg text-brass-light">القاعدة النورانية</span>
+                        </div>
+                        <div class="p-6 sm:p-7 space-y-4">
+                            <h3 class="font-serif text-2xl font-bold text-cypress">
+                                Noorani Qaida &amp; Foundational Makharij
+                            </h3>
+                            <p class="text-sm text-ink-muted leading-relaxed">
+                                Designed for young children (ages 4+) and absolute beginners. Builds accurate Arabic letter recognition, phonetic articulation points, vowel combinations (Harakat), and letter joining rules.
+                            </p>
+                            <ul class="space-y-2 text-xs text-ink pt-2 border-t border-brass/20">
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Correct Arabic pronunciation from day one</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Interactive visual drills &amp; patient repetition</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Smooth transition to reading the Mushaf</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2">
+                        <button onclick="selectCourseForTrial('Noorani Qaida & Foundational Makharij')" class="w-full py-3 px-4 rounded-xl bg-parchment hover:bg-cypress hover:text-parchment-light text-cypress font-semibold text-xs uppercase tracking-wider border border-brass/40 transition-colors">
+                            Select Course for Free Trial
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Course 2 -->
+                <article data-category="recitation" class="course-card bg-parchment-light rounded-2xl border border-brass/40 shadow-manuscript flex flex-col justify-between overflow-hidden transition-all hover:-translate-y-1">
+                    <div>
+                        <div class="bg-cypress text-parchment-light px-6 py-4 flex items-center justify-between border-b border-brass/40">
+                            <span class="text-xs uppercase tracking-widest text-brass-light font-semibold">Level 02 &bull; Recitation</span>
+                            <span class="font-arabic text-lg text-brass-light">ناظرة القرآن بالتجويد</span>
+                        </div>
+                        <div class="p-6 sm:p-7 space-y-4">
+                            <h3 class="font-serif text-2xl font-bold text-cypress">
+                                Nazra Quran with Applied Tajweed Rules
+                            </h3>
+                            <p class="text-sm text-ink-muted leading-relaxed">
+                                Complete fluent reading of the Holy Quran with practical application of Tajweed principles, including Noon &amp; Meem Sakinah, Qalqalah, Madd rules, and proper stopping (Waqf).
+                            </p>
+                            <ul class="space-y-2 text-xs text-ink pt-2 border-t border-brass/20">
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Elimination of hidden and obvious recitation errors</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Color-coded Tajweed Mushaf screen sharing</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Weekly revision &amp; fluency evaluation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2">
+                        <button onclick="selectCourseForTrial('Nazra Quran with Applied Tajweed')" class="w-full py-3 px-4 rounded-xl bg-parchment hover:bg-cypress hover:text-parchment-light text-cypress font-semibold text-xs uppercase tracking-wider border border-brass/40 transition-colors">
+                            Select Course for Free Trial
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Course 3 -->
+                <article data-category="recitation" class="course-card bg-parchment-light rounded-2xl border border-brass/40 shadow-manuscript flex flex-col justify-between overflow-hidden transition-all hover:-translate-y-1">
+                    <div>
+                        <div class="bg-cypress text-parchment-light px-6 py-4 flex items-center justify-between border-b border-brass/40">
+                            <span class="text-xs uppercase tracking-widest text-brass-light font-semibold">Level 03 &bull; Memorization</span>
+                            <span class="font-arabic text-lg text-brass-light">تحفيظ القرآن الكريم</span>
+                        </div>
+                        <div class="p-6 sm:p-7 space-y-4">
+                            <h3 class="font-serif text-2xl font-bold text-cypress">
+                                Hifz al-Quran (Juz Amma &amp; Selected Surahs)
+                            </h3>
+                            <p class="text-sm text-ink-muted leading-relaxed">
+                                Structured, low-stress memorization program for children and sisters. Covers Juz Amma (30th Para), Surah Al-Mulk, Surah Yaseen, Surah Al-Kahf, and Surah Ar-Rahman.
+                            </p>
+                            <ul class="space-y-2 text-xs text-ink pt-2 border-t border-brass/20">
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> 3-tier system: Sabaq (New), Sabaqi, and Manzil</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Retention-first methodology so verses are never forgotten</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Ideal for school-going kids &amp; busy adults</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2">
+                        <button onclick="selectCourseForTrial('Quran Memorization (Hifz Program)')" class="w-full py-3 px-4 rounded-xl bg-parchment hover:bg-cypress hover:text-parchment-light text-cypress font-semibold text-xs uppercase tracking-wider border border-brass/40 transition-colors">
+                            Select Course for Free Trial
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Course 4 -->
+                <article data-category="foundation islamic" class="course-card bg-parchment-light rounded-2xl border border-brass/40 shadow-manuscript flex flex-col justify-between overflow-hidden transition-all hover:-translate-y-1">
+                    <div>
+                        <div class="bg-cypress text-parchment-light px-6 py-4 flex items-center justify-between border-b border-brass/40">
+                            <span class="text-xs uppercase tracking-widest text-brass-light font-semibold">Level 04 &bull; Tarbiyah</span>
+                            <span class="font-arabic text-lg text-brass-light">الدراسات الإسلامية</span>
+                        </div>
+                        <div class="p-6 sm:p-7 space-y-4">
+                            <h3 class="font-serif text-2xl font-bold text-cypress">
+                                Essential Islamic Studies, Salah &amp; Duas
+                            </h3>
+                            <p class="text-sm text-ink-muted leading-relaxed">
+                                Holistic Islamic upbringing for children and teens living in Western or local communities. Teaches daily Masnoon Duas, Six Kalimas, complete Salah method, and prophetic manners (Akhlaq).
+                            </p>
+                            <ul class="space-y-2 text-xs text-ink pt-2 border-t border-brass/20">
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Practical Wudu &amp; Namaz training with translation</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Stories of the Prophets &amp; Seerah lessons</li>
+                                <li class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Included complimentary alongside Quran classes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2">
+                        <button onclick="selectCourseForTrial('Essential Islamic Studies, Salah & Duas')" class="w-full py-3 px-4 rounded-xl bg-parchment hover:bg-cypress hover:text-parchment-light text-cypress font-semibold text-xs uppercase tracking-wider border border-brass/40 transition-colors">
+                            Select Course for Free Trial
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Course 5 -->
+                <article data-category="islamic" class="course-card bg-parchment-light rounded-2xl border border-brass/40 shadow-manuscript flex flex-col justify-between overflow-hidden transition-all hover:-translate-y-1 md:col-span-2 lg:col-span-2">
+                    <div>
+                        <div class="bg-cypress-dark text-parchment-light px-6 py-4 flex flex-wrap items-center justify-between gap-2 border-b border-brass">
+                            <span class="text-xs uppercase tracking-widest text-brass-light font-semibold">Special Scholar Track &bull; Sisters Only</span>
+                            <span class="font-arabic text-lg text-brass-light">التفسير وعلوم القرآن للنساء</span>
+                        </div>
+                        <div class="p-6 sm:p-8 space-y-4">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-cypress">
+                                    Dedicated Sisters' Track: Tafseer al-Quran, Word-by-Word Translation &amp; Tajweed
+                                </h3>
+                                <span class="self-start px-3 py-1 rounded-full bg-brass/20 text-cypress text-xs font-bold shrink-0">
+                                    Led by M.A. Islamic Studies Scholar
+                                </span>
+                            </div>
+                            <p class="text-sm sm:text-base text-ink-muted leading-relaxed">
+                                Specifically curated by Ustazah Malik Urooj Humza for adult women, university students, working professionals, and mothers. Deepen your connection with Allah's book through word-by-word Quran translation, contextual Tafseer, Hadith reflections, and Tajweed refinement in a private, sister-to-sister setting.
+                            </p>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 border-t border-brass/20 text-xs text-ink">
+                                <div class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Classical &amp; thematic Tafseer</div>
+                                <div class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Flexible morning or evening slots</div>
+                                <div class="flex items-center gap-2"><span class="text-brass-dark font-bold">&#10003;</span> Judgment-free space for beginners</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-6 sm:px-8 pb-6 pt-2">
+                        <button onclick="selectCourseForTrial('Dedicated Sisters Track (Tafseer & Tajweed)')" class="w-full sm:w-auto py-3 px-6 rounded-xl bg-cypress hover:bg-cypress-light text-parchment-light font-semibold text-xs uppercase tracking-wider border border-brass transition-colors">
+                            Enroll in Sisters' Scholar Track
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Why Choose Ustazah Malik Urooj Humza (Methodology) -->
+    <section id="methodology" class="py-20 bg-cypress-pattern text-parchment-light border-b border-brass/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-14">
+                <span class="text-xs font-bold uppercase tracking-widest text-brass-light">Pedagogical Excellence</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-parchment-light">
+                    How Our Online Classroom Works
+                </h2>
+                <p class="text-parchment-dark/80 text-sm sm:text-base">
+                    Combining warm Islamic etiquette (Adab) with modern interactive tools so every student stays attentive and inspired.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Pillar 1 -->
+                <div class="bg-cypress-dark/80 border border-brass/35 rounded-2xl p-6 space-y-3">
+                    <div class="w-11 h-11 rounded-xl bg-brass/20 border border-brass/50 flex items-center justify-center text-brass-light font-serif text-xl font-bold">
+                        I
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-parchment-light">1-on-1 Individual Classes</h3>
+                    <p class="text-xs sm:text-sm text-parchment-dark/80 leading-relaxed">
+                        Your child or sister is never placed in a crowded group call. Every 30-minute session is 100% private and focused solely on one student.
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="bg-cypress-dark/80 border border-brass/35 rounded-2xl p-6 space-y-3">
+                    <div class="w-11 h-11 rounded-xl bg-brass/20 border border-brass/50 flex items-center justify-center text-brass-light font-serif text-xl font-bold">
+                        II
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-parchment-light">Screen-Shared Digital Mushaf</h3>
+                    <p class="text-xs sm:text-sm text-parchment-dark/80 leading-relaxed">
+                        Interactive whiteboard annotations and color-coded Tajweed scripts on Zoom or Google Meet allow students to see every rule highlighted live.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="bg-cypress-dark/80 border border-brass/35 rounded-2xl p-6 space-y-3">
+                    <div class="w-11 h-11 rounded-xl bg-brass/20 border border-brass/50 flex items-center justify-center text-brass-light font-serif text-xl font-bold">
+                        III
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-parchment-light">Safe Environment for Sisters</h3>
+                    <p class="text-xs sm:text-sm text-parchment-dark/80 leading-relaxed">
+                        Taught directly by Ustazah Malik Urooj Humza, ensuring complete privacy, comfort, and modesty for female students and young children.
+                    </p>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="bg-cypress-dark/80 border border-brass/35 rounded-2xl p-6 space-y-3">
+                    <div class="w-11 h-11 rounded-xl bg-brass/20 border border-brass/50 flex items-center justify-center text-brass-light font-serif text-xl font-bold">
+                        IV
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-parchment-light">Monthly Parent Feedback</h3>
+                    <p class="text-xs sm:text-sm text-parchment-dark/80 leading-relaxed">
+                        Parents receive regular WhatsApp updates and monthly progress assessments detailing Tajweed accuracy, Surahs memorized, and Duas learned.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Interactive Tuition & Schedule Calculator / Plans -->
+    <section id="tuition" class="py-20 bg-parchment border-b border-brass/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+                <div class="space-y-2 max-w-2xl">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brass-dark">Transparent Hadiya / Tuition</span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold text-cypress">
+                        Monthly Learning Plans
+                    </h2>
+                    <p class="text-ink-muted text-sm sm:text-base">
+                        All plans begin with a <strong class="text-cypress">free 3-day trial</strong> with no advance payment required. Sibling and family discounts are available.
+                    </p>
+                </div>
+
+                <!-- Interactive Currency Switcher -->
+                <div class="bg-parchment-light p-1.5 rounded-xl border border-brass/40 inline-flex items-center gap-1 self-start lg:self-auto">
+                    <button onclick="setCurrency('USD')" data-currency="USD" class="currency-btn px-3.5 py-2 rounded-lg text-xs font-bold transition-all bg-cypress text-parchment-light">
+                        USD ($)
+                    </button>
+                    <button onclick="setCurrency('GBP')" data-currency="GBP" class="currency-btn px-3.5 py-2 rounded-lg text-xs font-bold transition-all text-cypress hover:bg-parchment">
+                        GBP (&pound;)
+                    </button>
+                    <button onclick="setCurrency('CAD')" data-currency="CAD" class="currency-btn px-3.5 py-2 rounded-lg text-xs font-bold transition-all text-cypress hover:bg-parchment">
+                        CAD ($)
+                    </button>
+                    <button onclick="setCurrency('PKR')" data-currency="PKR" class="currency-btn px-3.5 py-2 rounded-lg text-xs font-bold transition-all text-cypress hover:bg-parchment">
+                        PKR (Rs)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pricing Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                
+                <!-- Plan 1: 3 Days / Week -->
+                <div class="bg-parchment-light rounded-2xl p-7 sm:p-8 border border-brass/35 shadow-manuscript flex flex-col justify-between">
+                    <div class="space-y-5">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold uppercase tracking-widest text-brass-dark">Foundation Schedule</span>
+                            <span class="px-2.5 py-1 rounded-md bg-parchment text-cypress text-xs font-semibold">12 Classes / Mo</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-cypress">3 Days a Week</h3>
+                        <div class="flex items-baseline gap-1">
+                            <span id="pricePlan1" class="font-serif text-4xl sm:text-5xl font-bold text-cypress">$35</span>
+                            <span class="text-xs text-ink-muted font-medium">/ month</span>
+                        </div>
+                        <p class="text-xs text-ink-muted leading-relaxed">
+                            Ideal for school-going children or university sisters looking for steady weekly progress without overloading their schedule.
+                        </p>
+                        <ul class="space-y-3 text-xs sm:text-sm text-ink pt-4 border-t border-brass/20">
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> 30 Minutes 1-on-1 Live Session</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> 3 Classes per week (Mon/Wed/Fri or Tue/Thu/Sat)</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> Qaida, Nazra or Tafseer Track</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> Basic Islamic Studies &amp; Duas included</li>
+                        </ul>
+                    </div>
+                    <div class="pt-7">
+                        <button onclick="selectPlanForTrial('3 Days/Week Plan (12 Classes/Month)')" class="w-full py-3.5 px-4 rounded-xl bg-parchment hover:bg-cypress hover:text-parchment-light text-cypress font-semibold text-xs uppercase tracking-wider border border-brass/50 transition-colors">
+                            Start Free Trial with This Plan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Plan 2: 5 Days / Week (Recommended) -->
+                <div class="bg-cypress text-parchment-light rounded-2xl p-7 sm:p-8 border-2 border-brass shadow-arch flex flex-col justify-between relative">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brass text-cypress-dark text-[11px] font-bold uppercase tracking-widest px-4 py-1 rounded-full shadow-xs">
+                        Most Popular for Kids &amp; Hifz
+                    </div>
+                    <div class="space-y-5">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold uppercase tracking-widest text-brass-light">Regular Immersion</span>
+                            <span class="px-2.5 py-1 rounded-md bg-cypress-dark text-brass-light text-xs font-semibold border border-brass/30">20 Classes / Mo</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-parchment-light">5 Days a Week</h3>
+                        <div class="flex items-baseline gap-1">
+                            <span id="pricePlan2" class="font-serif text-4xl sm:text-5xl font-bold text-brass-light">$50</span>
+                            <span class="text-xs text-parchment-dark/80 font-medium">/ month</span>
+                        </div>
+                        <p class="text-xs text-parchment-dark/80 leading-relaxed">
+                            Recommended for building strong daily consistency in Noorani Qaida, fluent Tajweed recitation, and Surah memorization.
+                        </p>
+                        <ul class="space-y-3 text-xs sm:text-sm text-parchment-light pt-4 border-t border-brass/30">
+                            <li class="flex items-center gap-2.5"><span class="text-brass-light font-bold">&#10003;</span> 30 Minutes 1-on-1 Live Session</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-light font-bold">&#10003;</span> 5 Classes per week (Monday to Friday)</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-light font-bold">&#10003;</span> Dedicated Weekly Revision &amp; Tajweed Drills</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-light font-bold">&#10003;</span> Complete Salah, Kalimas &amp; Seerah Syllabus</li>
+                        </ul>
+                    </div>
+                    <div class="pt-7">
+                        <button onclick="selectPlanForTrial('5 Days/Week Plan (20 Classes/Month)')" class="w-full py-3.5 px-4 rounded-xl bg-brass hover:bg-brass-light text-cypress-dark font-bold text-xs uppercase tracking-wider transition-colors">
+                            Start Free Trial with This Plan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Plan 3: Weekend / Custom Sisters Track -->
+                <div class="bg-parchment-light rounded-2xl p-7 sm:p-8 border border-brass/35 shadow-manuscript flex flex-col justify-between">
+                    <div class="space-y-5">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold uppercase tracking-widest text-brass-dark">Flexible / Weekend</span>
+                            <span class="px-2.5 py-1 rounded-md bg-parchment text-cypress text-xs font-semibold">8 Classes / Mo</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-cypress">Weekend &amp; Sisters' Track</h3>
+                        <div class="flex items-baseline gap-1">
+                            <span id="pricePlan3" class="font-serif text-4xl sm:text-5xl font-bold text-cypress">$28</span>
+                            <span class="text-xs text-ink-muted font-medium">/ month</span>
+                        </div>
+                        <p class="text-xs text-ink-muted leading-relaxed">
+                            Tailored for working sisters, mothers, or students with busy weekday schedules who prefer Saturday and Sunday sessions.
+                        </p>
+                        <ul class="space-y-3 text-xs sm:text-sm text-ink pt-4 border-t border-brass/20">
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> 30 to 45 Minutes 1-on-1 Live Session</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> Saturday &amp; Sunday Custom Timings</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> Tafseer, Translation &amp; Tajweed Focus</li>
+                            <li class="flex items-center gap-2.5"><span class="text-brass-dark font-bold">&#10003;</span> Makeup classes for missed sessions</li>
+                        </ul>
+                    </div>
+                    <div class="pt-7">
+                        <button onclick="selectPlanForTrial('Weekend / Sisters Flexible Plan (8 Classes/Month)')" class="w-full py-3.5 px-4 rounded-xl bg-parchment hover:bg-cypress hover:text-parchment-light text-cypress font-semibold text-xs uppercase tracking-wider border border-brass/50 transition-colors">
+                            Start Free Trial with This Plan
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Interactive "Book Your 3-Day Free Trial Class" & Contact Section -->
+    <section id="trial" class="py-20 bg-islamic-pattern">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-parchment-light rounded-3xl border-2 border-brass/50 shadow-arch overflow-hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-12">
+                    
+                    <!-- Left Info Panel (5 cols) -->
+                    <div class="lg:col-span-5 bg-cypress-pattern text-parchment-light p-8 sm:p-10 flex flex-col justify-between space-y-8 border-b lg:border-b-0 lg:border-r border-brass/40">
+                        <div class="space-y-4">
+                            <span class="inline-block px-3 py-1 rounded-full bg-brass/20 border border-brass/40 text-brass-light text-xs font-semibold uppercase tracking-widest">
+                                Complimentary Evaluation
+                            </span>
+                            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-parchment-light leading-tight">
+                                Book Your 3-Day Free Trial Class
+                            </h2>
+                            <p class="text-xs sm:text-sm text-parchment-dark/85 leading-relaxed">
+                                Experience Ustazah Malik Urooj Humza's patient teaching style firsthand. During the trial, we assess the student's current level, introduce foundational Tajweed, and customize a study plan.
+                            </p>
+                        </div>
+
+                        <div class="space-y-4 text-xs sm:text-sm border-t border-brass/25 pt-6">
+                            <div>
+                                <span class="block text-brass-light font-semibold uppercase tracking-wider text-xs">Instructor</span>
+                                <span class="text-parchment-light font-medium">Ustazah Malik Urooj Humza (B.Sc., M.A. Islamic Studies)</span>
+                            </div>
+                            <div>
+                                <span class="block text-brass-light font-semibold uppercase tracking-wider text-xs">Eligible Students</span>
+                                <span class="text-parchment-light font-medium">Children (Ages 4 to 16) &amp; Sisters / Adult Women of All Ages</span>
+                            </div>
+                            <div>
+                                <span class="block text-brass-light font-semibold uppercase tracking-wider text-xs">Time Zones Supported</span>
+                                <span class="text-parchment-light font-medium">UK (GMT/BST), USA/Canada (EST/CST/PST), Europe, UAE &amp; Pakistan (PKT)</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-cypress-dark/90 p-4 rounded-xl border border-brass/30 text-xs text-parchment-dark/90">
+                            <p class="font-serif italic text-base text-brass-light mb-1">"The best among you are those who learn the Qur'an and teach it."</p>
+                            <p class="text-[11px] uppercase tracking-wider text-parchment-dark/70">Sahih al-Bukhari 5027</p>
+                        </div>
+                    </div>
+
+                    <!-- Right Interactive Enrollment Form (7 cols) -->
+                    <div class="lg:col-span-7 p-8 sm:p-10">
+                        <form id="trialBookingForm" class="space-y-5">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="studentName" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">Student or Parent Name *</label>
+                                    <input type="text" id="studentName" required placeholder="e.g. Ayesha Khan" class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress">
+                                </div>
+                                <div>
+                                    <label for="studentCategory" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">Student Category *</label>
+                                    <select id="studentCategory" required class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress">
+                                        <option value="Child (Ages 4 - 12)">Child (Ages 4 - 12)</option>
+                                        <option value="Teenager (Ages 13 - 17)">Teenager (Ages 13 - 17)</option>
+                                        <option value="Sister / Adult Female Beginner">Sister / Adult Female Beginner</option>
+                                        <option value="Sister / Advanced Tafseer & Tajweed">Sister / Advanced Tafseer &amp; Tajweed</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="selectedCourse" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">Preferred Course *</label>
+                                    <select id="selectedCourse" required class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress">
+                                        <option value="Noorani Qaida & Foundational Makharij">Noorani Qaida &amp; Foundational Makharij</option>
+                                        <option value="Nazra Quran with Applied Tajweed">Nazra Quran with Applied Tajweed</option>
+                                        <option value="Quran Memorization (Hifz Program)">Quran Memorization (Hifz Program)</option>
+                                        <option value="Essential Islamic Studies, Salah & Duas">Essential Islamic Studies, Salah &amp; Duas</option>
+                                        <option value="Dedicated Sisters Track (Tafseer & Tajweed)">Dedicated Sisters Track (Tafseer &amp; Tajweed)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="selectedPlan" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">Preferred Schedule *</label>
+                                    <select id="selectedPlan" required class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress">
+                                        <option value="5 Days/Week Plan (20 Classes/Month)">5 Days/Week Plan (20 Classes/Month)</option>
+                                        <option value="3 Days/Week Plan (12 Classes/Month)">3 Days/Week Plan (12 Classes/Month)</option>
+                                        <option value="Weekend / Sisters Flexible Plan (8 Classes/Month)">Weekend / Sisters Flexible Plan (8 Classes/Month)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="contactInfo" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">WhatsApp Number or Email *</label>
+                                    <input type="text" id="contactInfo" required placeholder="+44 7700 900000 or email@example.com" class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress">
+                                </div>
+                                <div>
+                                    <label for="countryTimezone" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">Country &amp; Preferred Time *</label>
+                                    <input type="text" id="countryTimezone" required placeholder="e.g. UK - 5:00 PM / USA EST / Pakistan" class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="studentNotes" class="block text-xs font-bold uppercase tracking-wider text-cypress mb-2">Additional Notes or Learning Goals (Optional)</label>
+                                <textarea id="studentNotes" rows="3" placeholder="Share any details about current reading level, preferred platform (Zoom/Meet), or specific Surahs you wish to focus on..." class="w-full px-4 py-3 rounded-xl bg-parchment border border-brass/40 text-ink text-sm focus:outline-none focus:border-cypress"></textarea>
+                            </div>
+
+                            <div class="pt-2">
+                                <button type="submit" class="w-full py-4 px-6 rounded-xl bg-cypress hover:bg-cypress-light text-parchment-light font-semibold text-sm uppercase tracking-wider border border-brass shadow-md transition-all flex items-center justify-center gap-2">
+                                    <span>Generate Trial Booking &amp; Inquiry Summary</span>
+                                    <svg class="w-4 h-4 text-brass-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Confirmation & Ready-to-Send Message Box (Hidden until submit) -->
+                        <div id="bookingConfirmationBox" class="hidden mt-6 p-6 rounded-2xl bg-parchment border-2 border-brass space-y-4">
+                            <div class="flex items-start justify-between gap-3">
+                                <div>
+                                    <span class="text-xs font-bold uppercase tracking-widest text-brass-dark">JazakAllah Khair! Request Prepared</span>
+                                    <h4 class="font-serif text-2xl font-bold text-cypress">Your Trial Class Summary is Ready</h4>
+                                </div>
+                                <button onclick="closeConfirmation()" class="text-ink-muted hover:text-cypress text-xs font-bold uppercase">Close</button>
+                            </div>
+                            <p class="text-xs text-ink-muted">
+                                Copy your formatted enrollment summary below or send it directly via Email or WhatsApp to Ustazah Malik Urooj Humza.
+                            </p>
+                            <pre id="generatedSummaryText" class="bg-parchment-light p-4 rounded-xl border border-brass/30 text-xs text-ink whitespace-pre-wrap font-sans leading-relaxed"></pre>
+                            <div class="flex flex-wrap items-center gap-3 pt-1">
+                                <button onclick="copySummaryToClipboard()" id="copySummaryBtn" class="px-4 py-2.5 rounded-lg bg-cypress text-parchment-light text-xs font-semibold hover:bg-cypress-light transition-colors">
+                                    Copy Inquiry Text
+                                </button>
+                                <a id="mailtoLinkBtn" href="#" class="px-4 py-2.5 rounded-lg bg-brass hover:bg-brass-dark text-cypress-dark text-xs font-bold transition-colors">
+                                    Open in Email Client
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Footer -->
+    <footer class="bg-cypress-dark text-parchment-light border-t-2 border-brass/40 pt-14 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-10 border-b border-brass/20">
+                
+                <!-- Brand Column (5 cols) -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-cypress flex items-center justify-center border border-brass">
+                            <svg class="w-5 h-5 text-brass-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="5" y="5" width="14" height="14" rx="1" />
+                                <rect x="5" y="5" width="14" height="14" rx="1" transform="rotate(45 12 12)" />
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="block font-serif text-2xl font-bold text-parchment-light">Malik Urooj Humza</span>
+                            <span class="block text-[11px] uppercase tracking-widest text-brass-light">B.Sc. | M.A. Islamic Studies Scholar</span>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-parchment-dark/80 leading-relaxed max-w-sm">
+                        Dedicated Online Quran &amp; Islamic Studies Academy providing personalized 1-on-1 instruction in Tajweed, Nazra, Hifz, and Tafseer for sisters and children worldwide.
+                    </p>
+                </div>
+
+                <!-- Quick Links (3 cols) -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="font-serif text-lg font-bold text-brass-light">Academy Navigation</h4>
+                    <ul class="space-y-2 text-xs sm:text-sm text-parchment-dark/85">
+                        <li><a href="#about" class="hover:text-brass-light transition-colors">About Ustazah Malik Urooj Humza</a></li>
+                        <li><a href="#credentials" class="hover:text-brass-light transition-colors">Academic Qualifications</a></li>
+                        <li><a href="#courses" class="hover:text-brass-light transition-colors">Sacred Curriculum</a></li>
+                        <li><a href="#tuition" class="hover:text-brass-light transition-colors">Monthly Fee Plans</a></li>
+                        <li><a href="#trial" class="hover:text-brass-light transition-colors">Book 3-Day Free Trial</a></li>
+                    </ul>
+                </div>
+
+                <!-- Courses Summary (4 cols) -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="font-serif text-lg font-bold text-brass-light">Core Specializations</h4>
+                    <ul class="space-y-2 text-xs sm:text-sm text-parchment-dark/85">
+                        <li>Noorani Qaida &amp; Phonetic Makharij</li>
+                        <li>Nazra Quran with Applied Tajweed</li>
+                        <li>Juz Amma &amp; Selected Surahs Hifz</li>
+                        <li>Sisters' Tafseer &amp; Translation Circle</li>
+                        <li>Children's Salah, Kalimas &amp; Masnoon Duas</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-parchment-dark/70">
+                <p>&copy; <span id="currentYear"></span> Malik Urooj Humza Online Quran Academy. All rights reserved.</p>
+                <p class="font-arabic text-base text-brass-light" dir="rtl" lang="ar">جَزَاكُمُ اللَّهُ خَيْرًا كَثِيرًا</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Logic -->
+    <script>
+        // Set dynamic copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile Navigation Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOpenIcon = document.getElementById('menuOpenIcon');
+        const menuCloseIcon = document.getElementById('menuCloseIcon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                menuOpenIcon.classList.add('hidden');
+                menuCloseIcon.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+                menuOpenIcon.classList.remove('hidden');
+                menuCloseIcon.classList.add('hidden');
+            }
+        });
+
+        // Close mobile menu when clicking any link
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuOpenIcon.classList.remove('hidden');
+                menuCloseIcon.classList.add('hidden');
+            });
+        });
+
+        // Interactive Course Filter Tabs
+        function filterCourses(category) {
+            const cards = document.querySelectorAll('.course-card');
+            const tabs = document.querySelectorAll('.course-tab');
+
+            tabs.forEach(tab => {
+                if (tab.dataset.filter === category) {
+                    tab.className = 'course-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-cypress text-parchment-light border border-brass';
+                } else {
+                    tab.className = 'course-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-parchment text-cypress hover:bg-parchment-dark border border-brass/35';
+                }
+            });
+
+            cards.forEach(card => {
+                const categories = card.dataset.category;
+                if (category === 'all' || categories.includes(category)) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        // Interactive Currency Switcher for Fee Plans
+        const pricingData = {
+            USD: { plan1: '$35', plan2: '$50', plan3: '$28' },
+            GBP: { plan1: '£28', plan2: '£40', plan3: '£22' },
+            CAD: { plan1: 'C$45', plan2: 'C$65', plan3: 'C$36' },
+            PKR: { plan1: 'Rs 4,500', plan2: 'Rs 6,500', plan3: 'Rs 3,500' }
+        };
+
+        function setCurrency(currency) {
+            const rates = pricingData[currency];
+            if (!rates) return;
+
+            document.getElementById('pricePlan1').textContent = rates.plan1;
+            document.getElementById('pricePlan2').textContent = rates.plan2;
+            document.getElementById('pricePlan3').textContent = rates.plan3;
+
+            document.querySelectorAll('.currency-btn').forEach(btn => {
+                if (btn.dataset.currency === currency) {
+                    btn.className = 'currency-btn px-3.5 py-2 rounded-lg text-xs font-bold transition-all bg-cypress text-parchment-light';
+                } else {
+                    btn.className = 'currency-btn px-3.5 py-2 rounded-lg text-xs font-bold transition-all text-cypress hover:bg-parchment';
+                }
+            });
+        }
+
+        // Pre-fill Trial Form when clicking a Course or Plan button
+        function selectCourseForTrial(courseName) {
+            const courseSelect = document.getElementById('selectedCourse');
+            if (courseSelect) {
+                courseSelect.value = courseName;
+            }
+            document.getElementById('trial').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function selectPlanForTrial(planName) {
+            const planSelect = document.getElementById('selectedPlan');
+            if (planSelect) {
+                planSelect.value = planName;
+            }
+            document.getElementById('trial').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Handle Free Trial Booking Form Submission
+        const trialBookingForm = document.getElementById('trialBookingForm');
+        const bookingConfirmationBox = document.getElementById('bookingConfirmationBox');
+        const generatedSummaryText = document.getElementById('generatedSummaryText');
+        const mailtoLinkBtn = document.getElementById('mailtoLinkBtn');
+
+        trialBookingForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('studentName').value.trim();
+            const category = document.getElementById('studentCategory').value;
+            const course = document.getElementById('selectedCourse').value;
+            const plan = document.getElementById('selectedPlan').value;
+            const contact = document.getElementById('contactInfo').value.trim();
+            const timezone = document.getElementById('countryTimezone').value.trim();
+            const notes = document.getElementById('studentNotes').value.trim() || 'None specified';
+
+            const summaryMessage = 
+`Assalamu Alaikum Ustazah Malik Urooj Humza,
+
+I would like to book a 3-Day Free Trial Class at your Online Quran Academy:
+
+- Student / Parent Name: ${name}
+- Student Category: ${category}
+- Selected Course: ${course}
+- Preferred Schedule: ${plan}
+- Contact Details: ${contact}
+- Country & Preferred Time: ${timezone}
+- Learning Notes: ${notes}
+
+JazakAllah Khair.`;
+
+            generatedSummaryText.textContent = summaryMessage;
+
+            const subject = encodeURIComponent(`3-Day Free Trial Request - ${name}`);
+            const body = encodeURIComponent(summaryMessage);
+            mailtoLinkBtn.href = `mailto:?subject=${subject}&body=${body}`;
+
+            bookingConfirmationBox.classList.remove('hidden');
+            bookingConfirmationBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+
+        function closeConfirmation() {
+            bookingConfirmationBox.classList.add('hidden');
+        }
+
+        function copySummaryToClipboard() {
+            const text = generatedSummaryText.textContent;
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            const copyBtn = document.getElementById('copySummaryBtn');
+            const originalText = copyBtn.textContent;
+            copyBtn.textContent = 'Copied to Clipboard!';
+            setTimeout(() => {
+                copyBtn.textContent = originalText;
+            }, 2200);
+        }
+    </script>
+</body>
+</html>
